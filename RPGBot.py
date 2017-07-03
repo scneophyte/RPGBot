@@ -284,9 +284,9 @@ class Bot(commands.Bot):
         await self.webapp.start('0.0.0.0', 1441)
 
 prefix = ['rp!', 'pb!', '<@305177429612298242> '] if "debug" not in sys.argv else 'rp$'
-invlink = "https://discordapp.com/oauth2/authorize?client_id=305177429612298242&scope=bot&permissions=322625"
-servinv = "https://discord.gg/UYJb8fQ"
-sourcelink = "https://github.com/henry232323/RPGBot"
+invlink = "https://discordapp.com/oauth2/authorize?client_id=331279526225248258&scope=bot&permissions=322625"
+servinv = "none yet"
+sourcelink = "https://github.com/scneophyte/RPGBot"
 description = f"RPGBot, a little discord bot by Henry#6174\n**Add to your server**: {invlink}\n**Support Server**: {servinv}\n**Source**: {sourcelink}"
 
 with open("resources/auth") as af:
